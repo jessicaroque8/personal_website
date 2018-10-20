@@ -1,0 +1,23 @@
+@import '../../style/variables.css';
+
+.link {
+	display: inline-block;
+	color: var(--special);
+	transition: all 0.2s ease-in-out;
+}
+.link:hover {
+	color: var(--special-light);
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.noStyle {
+	color: unset;
+	transition: unset;
+	font-weight: unset;
+	text-decoration: none;
+}
+.noStyle:hover {
+	color: unset;
+	font-weight: unset;
+}

@@ -1,0 +1,38 @@
+.homeHeaderContainer {
+	height: calc(100vh - 52px);
+	display: flex;
+	align-items: center;
+}
+
+.homeHeroSubtitle::after {
+	content: 'My name is';
+	display: block;
+	font-size: var(--small-3) !important;
+	color: var(--darkest-gray);
+	padding-top: 24px;
+}
+
+.homeBlurb {
+	margin-bottom: 32px;
+	font-size: var(--small-1);
+}
+
+.addHeroTitle::before {
+	content: 'My name is';
+	display: block;
+	font-size: var(--small-4);
+}
+@media only screen and (min-width: 768px) {
+	.homeHeaderContainer {
+		height: calc(100vh - 84px);
+	}
+	.homeHeroSubtitle::after {
+		font-size: var(--large-3) !important;
+	}
+	.homeBlurb {
+		font-size: var(--large-2);
+	}
+	.addHeroTitle {
+		font-size: var(--large-4);
+	}
+}

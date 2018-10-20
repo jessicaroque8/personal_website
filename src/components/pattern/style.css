@@ -1,0 +1,23 @@
+@import '../../style/variables.css';
+
+.pattern {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	max-width: 100vw;
+	height: calc(100vh - 52px);
+}
+@media only screen and (min-width: 768px) {
+	.pattern {
+		height: calc(100vh - 84px);
+	}
+}
+.trees {
+	background-image: url(../../assets/img/tree_bark.png);
+	background-repeat: repeat;
+}
+.asteroids {
+	background-image: url('../../assets/img/asteroids.jpg');
+	background-repeat: repeat;
+}

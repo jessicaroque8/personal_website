@@ -1,0 +1,9 @@
+.content {
+	margin-top: 52px;
+	min-height: 100%;
+}
+@media only screen and (min-width: 768px) {
+	.content {
+		margin-top: 84px;
+	}
+}

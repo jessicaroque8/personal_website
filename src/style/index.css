@@ -1,0 +1,81 @@
+@import url('//fonts.googleapis.com/css?family=Roboto|Poppins');
+@import url('//use.fontawesome.com/releases/v5.3.1/css/brands.css');
+@import url('//use.fontawesome.com/releases/v5.3.1/css/fontawesome.css');
+@import url('//fonts.googleapis.com/icon?family=Material+Icons');
+
+html,
+body {
+	font-family: var(--sans-serif);
+	font-color: var(--darkest-gray);
+	margin: 0 auto;
+	background: var(--tan);
+	min-height: 100vh;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--serif);
+	margin: 0;
+}
+
+h1,
+h2,
+h3 {
+	font-family: var(--serif);
+	color: var(--darkest-gray);
+	font-weight: 700;
+}
+h4,
+h5,
+h6 {
+	color: var(--darkest-gray);
+}
+
+h1 {
+	font-size: var(--small-6);
+}
+h2 {
+	font-szie: var(--small-5);
+}
+h3 {
+	font-size: var(--small-4);
+}
+h4 {
+	font-size: var(--small-3);
+}
+h5 {
+	font-size: var(--small-2);
+}
+h6 {
+	fon-size: var(--small-1);
+}
+@media only screen and (min-width: 768px) {
+	h1 {
+		font-size: var(--large-6);
+	}
+	h2 {
+		font-size: var(--large-5);
+	}
+	h3 {
+		font-size: var(--large-4);
+	}
+	h4 {
+		font-size: var(--large-3);
+	}
+	h5 {
+		font-size: var(--large-2);
+	}
+	h6 {
+		fon-size: var(--large-1);
+	}
+}
+
+#app {
+	min-height: 100%;
+}

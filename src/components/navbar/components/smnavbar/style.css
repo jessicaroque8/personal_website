@@ -1,0 +1,49 @@
+@import '../../../../style/variables.css';
+
+img.logoImg {
+	height: 36px;
+	width: auto;
+	margin: 4px 16px;
+}
+
+.menuContainer {
+	z-index: 2;
+	position: absolute;
+	width: 60vw;
+	height: 100vh;
+	padding: 16px;
+	top: 51px;
+	left: -500px;
+	background: var(--darkest-gray);
+	transition: all 0.2s ease-in-out;
+	box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.5);
+}
+.menuOpen {
+	left: 0px;
+	position: fixed;
+}
+
+.menuContainer .navTitle {
+	display: block;
+	font-size: var(--small-0);
+	font-weight: bold;
+	padding: 8px 0px;
+	text-transform: uppercase;
+	color: var(--medium-gray);
+	text-shadow: 1px 1px 1px #000000;
+}
+
+.menuContainer .navTitle:last-of-type {
+	padding-top: 16px;
+}
+
+.menuContainer ul {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+.menuContainer ul:first-of-type {
+	padding-bottom: 16px;
+	border-bottom: 1px solid var(--dark-gray);
+}

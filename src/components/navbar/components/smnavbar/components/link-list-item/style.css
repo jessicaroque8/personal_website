@@ -1,0 +1,29 @@
+.listItem {
+	display: flex;
+	align-items: center;
+}
+
+.listItem .linkStyles {
+	display: flex;
+	width: 100%;
+	padding: 8px;
+}
+
+.listItem > i {
+	height: 24px;
+	width: 24px;
+	font-size: 22px;
+}
+
+.listItem > a > div > i,
+.listItem > a > span {
+	text-shadow: 1px 1px 2px #000000;
+	color: var(--light-gray);
+}
+
+.listItem div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 32px;
+}
