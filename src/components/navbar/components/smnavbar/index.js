@@ -45,7 +45,7 @@ class SmNavBar extends Component {
 						/>
 						<LinkListItem
 							iconName="portrait"
-							linkAttributes={{ to: '/about', text: 'About' }}
+							linkAttributes={{ to: '/resume', text: 'Resume' }}
 							onClick={this.toggleMenu}
 							iconClass="material-icons"
 						/>

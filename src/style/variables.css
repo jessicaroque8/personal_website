@@ -13,8 +13,8 @@
 	--special-light: #fd9644;
 
 	/* Font family */
-	--sans-serif: 'Roboto', Verdana, sans-serif;
-	--serif: 'Poppins', Georgia, serif;
+	--sans-serif: 'Roboto Mono', Georgia, serif;
+	--serif: 'Roboto Mono', Georgia, serif;
 
 	/* Font sizes */
 	--small-0: 0.9rem;

@@ -1,0 +1,12 @@
+.sectionContainer {
+	padding: 32px 16px;
+}
+.flex {
+	display: flex;
+}
+@media (min-width: 768px) {
+	.sectionContainer {
+		padding: 64px 32px;
+		width: 100%;
+	}
+}

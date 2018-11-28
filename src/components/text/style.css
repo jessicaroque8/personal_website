@@ -1,0 +1,58 @@
+@import '../../style//variables.css';
+
+.xsmall {
+	font-size: var(--small-0);
+}
+.small {
+	font-size: var(--small-2);
+}
+.medium {
+	font-size: var(--small-3);
+}
+.large {
+	font-size: var(--small-5);
+}
+.light {
+	font-weight: 300;
+}
+.bold {
+	font-weight: 700;
+}
+.regular {
+	font-weight: 500;
+}
+.flexStart {
+	display: flex;
+	justify-content: flex-start;
+}
+.flexEnd {
+	display: flex;
+	justify-content: flex-end;
+}
+.flexCenter {
+	display: flex;
+	justify-content: center;
+}
+.left {
+	text-align: left;
+}
+.right {
+	text-align: right;
+}
+.center {
+	text-align: center;
+}
+@media (min-width: 768px) {
+	.xsmall {
+		font-size: var(--large-1);
+	}
+	.small {
+		font-size: var(--large-2);
+	}
+	.medium {
+		font-size: var(--large-3);
+	}
+	.large {
+		font-size: var(--large-5);
+	}
+}

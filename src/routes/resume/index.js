@@ -3,8 +3,8 @@ import Main from '../../components/main';
 import Header from '../../components/header';
 import Card from '../../components/card';
 
-const renderHeader = () => <Header title="About" />;
-const About = () => (
+const renderHeader = () => <Header title="Resume" />;
+const Resume = () => (
 	<Main renderHeader={renderHeader}>
 		<div>
 			<Card
@@ -60,4 +60,4 @@ const About = () => (
 		</div>
 	</Main>
 );
-export default About;
+export default Resume;

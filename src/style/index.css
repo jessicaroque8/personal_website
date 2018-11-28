@@ -1,4 +1,4 @@
-@import url('//fonts.googleapis.com/css?family=Roboto|Poppins');
+@import url('//fonts.googleapis.com/css?family=Roboto|Roboto+Mono');
 @import url('//use.fontawesome.com/releases/v5.3.1/css/brands.css');
 @import url('//use.fontawesome.com/releases/v5.3.1/css/fontawesome.css');
 @import url('//fonts.googleapis.com/icon?family=Material+Icons');
@@ -8,7 +8,7 @@ body {
 	font-family: var(--sans-serif);
 	font-color: var(--darkest-gray);
 	margin: 0 auto;
-	background: var(--tan);
+	background: var(--white);
 	min-height: 100vh;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;

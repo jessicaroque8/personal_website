@@ -6,7 +6,7 @@ import Content from './content';
 import Footer from './footer';
 // Code-splitting is automated for routes
 import Home from '../routes/home';
-import About from '../routes/about';
+import Resume from '../routes/resume';
 import Contact from '../routes/contact';
 import Projects from '../routes/projects';
 
@@ -28,7 +28,7 @@ export default class App extends Component {
 				<Content>
 					<Router onChange={this.handleRoute}>
 						<Home path="/" />
-						<About path="/about" />
+						<Resume path="/resume" />
 						<Contact path="/contact" />
 						<Projects path="/projects" />
 					</Router>

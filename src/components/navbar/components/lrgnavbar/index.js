@@ -17,8 +17,8 @@ const LrgNavBar = () => (
 					</LinkWrapper>
 				</li>
 				<li>
-					<LinkWrapper to="/about" noStyle>
-						About
+					<LinkWrapper to="/resume" noStyle>
+						Resume
 					</LinkWrapper>
 				</li>
 				<li>

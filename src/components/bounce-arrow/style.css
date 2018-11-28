@@ -1,0 +1,28 @@
+.arrow {
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin: 16px 0;
+}
+
+.bounce {
+	animation: bounce 2s;
+	animation-delay: 5s;
+	animation-iteration-count: 1;
+}
+
+@keyframes bounce {
+	0%,
+	25%,
+	50%,
+	75%,
+	100% {
+		transform: translateY(0);
+	}
+	40% {
+		transform: translateY(-20px);
+	}
+	60% {
+		transform: translateY(-12px);
+	}
+}

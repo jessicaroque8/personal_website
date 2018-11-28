@@ -2,17 +2,15 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-top: 64px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .mainContent {
-	margin-top: 64px;
 	margin-bottom: 64px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	max-width: 725px;
+	width: 100%;
 }

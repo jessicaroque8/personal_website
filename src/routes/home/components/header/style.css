@@ -1,7 +1,9 @@
 .homeHeaderContainer {
-	height: calc(100vh - 52px);
+	min-height: calc(100vh - 52px);
 	display: flex;
 	align-items: center;
+	justify-content: center;
+	width: 100%;
 }
 
 .homeHeroSubtitle::after {
@@ -17,10 +19,88 @@
 	font-size: var(--small-1);
 }
 
+.addHeroTitle {
+	font-size: var(--small-5);
+}
 .addHeroTitle::before {
 	content: 'My name is';
 	display: block;
 	font-size: var(--small-4);
+}
+@-webkit-keyframes bounce {
+	0% {
+		top: 0;
+	}
+	50% {
+		top: -0.2em;
+	}
+	70% {
+		top: -0.3em;
+	}
+	100% {
+		top: 0;
+	}
+}
+@-moz-keyframes bounce {
+	0% {
+		top: 0;
+	}
+	50% {
+		top: -0.2em;
+	}
+	70% {
+		top: -0.3em;
+	}
+	100% {
+		top: 0;
+	}
+}
+@-o-keyframes bounce {
+	0% {
+		top: 0;
+	}
+	50% {
+		top: -0.2em;
+	}
+	70% {
+		top: -0.3em;
+	}
+	100% {
+		top: 0;
+	}
+}
+@-ms-keyframes bounce {
+	0% {
+		top: 0;
+	}
+	50% {
+		top: -0.2em;
+	}
+	70% {
+		top: -0.3em;
+	}
+	100% {
+		top: 0;
+	}
+}
+@keyframes bounce {
+	0% {
+		top: 0;
+	}
+	50% {
+		top: -0.2em;
+	}
+	70% {
+		top: -0.3em;
+	}
+	100% {
+		top: 0;
+	}
+}
+.downArrow {
+	display: inline-block;
+	position: relative;
+	animation: bounce 0.5s infinite lienar;
 }
 @media only screen and (min-width: 768px) {
 	.homeHeaderContainer {
@@ -33,6 +113,6 @@
 		font-size: var(--large-2);
 	}
 	.addHeroTitle {
-		font-size: var(--large-4);
+		font-size: var(--large-5);
 	}
 }

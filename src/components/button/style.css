@@ -1,11 +1,12 @@
 .specialBtn {
 	margin: var(--sm) 0;
 	border-radius: 50px;
-	border: 0;
+	background-color: var(--white);
 	padding: var(--md);
 	text-align: center;
 	color: var(--special);
 	font-weight: bold;
+	font-size: var(--small-1);
 	text-transform: uppercase;
 	transition: all 0.2s ease-in-out;
 	border: 2px solid var(--special);
@@ -15,4 +16,13 @@
 	cursor: pointer;
 	background: var(--special);
 	color: var(--white);
+}
+
+.primary {
+	background: var(--special);
+	color: var(--white);
+}
+.primary:hover {
+	background: var(--white);
+	color: var(--special);
 }

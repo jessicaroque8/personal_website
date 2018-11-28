@@ -1,0 +1,20 @@
+.center {
+	display: flex;
+	justify-content: center;
+}
+.start {
+	display: flex;
+	justify-content: flex-start;
+}
+.end {
+	display: flex;
+	justify-content: flex-end;
+}
+.between {
+	display: flex;
+	justify-content: space-between;
+}
+.isImg > * {
+	height: inherit;
+	width: inherit;
+}

@@ -16,3 +16,130 @@
 .description {
 	font-size: var(--large-1);
 }
+
+.mainText {
+	font-size: var(--small-3);
+}
+@media (min-width: 768px) {
+	.mainText {
+		font-size: var(--large-3);
+	}
+}
+.lightbulbContainer {
+	border-radius: 50%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -60px;
+	top: -60px;
+	background: #ffffff;
+	height: 80px;
+	width: 80px;
+}
+.lightbulb {
+	height: 40px;
+	position: relative;
+	bottom: -35px;
+}
+.message {
+	height: 100px;
+}
+.toolsSection {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--lightest-gray);
+}
+@media (min-width: 768px) {
+	.toolsSeciton {
+		flex-direction: row;
+	}
+}
+ul.tools {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-left: 0px;
+}
+
+ul.tools > li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+	padding: 16px;
+}
+ul.tools > li > img {
+	height: auto;
+	width: 30px;
+}
+@media (min-width: 768px) {
+	ul.tools > li > img {
+		width: 50px;
+	}
+}
+.centerText {
+	text-align: center;
+	color: var(--dark-gray);
+}
+.small {
+	font-size: var(--small-1);
+}
+.currentPositionContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.currentPositionContainer > div > div:nth-child(2) {
+	max-width: 700px;
+}
+.currentPositionImageContainer {
+	height: 125px;
+	width: auto;
+}
+.currentPosition {
+	text-align: center;
+}
+.contactContainer {
+	background: linear-gradient(rgba(154, 255, 0, 0.55), rgba(0, 189, 69, 0.64)), url('../../assets/img/funky-lines.png');
+}
+.contactInnerContainer {
+	margin: auto;
+	background-color: #ffffff;
+	padding: 8px 16px;
+	max-width: 800px;
+}
+.contactInnerContainer > div:nth-last-child(1) {
+	display: flex;
+	align-items: center;
+}
+@media (min-width: 768px) {
+	.lightbulbContainer {
+		height: 150px;
+		width: 150px;
+		top: -120px;
+	}
+	.lightbulb {
+		height: 75px;
+		bottom: -55px;
+	}
+	.centerText {
+		font-size: var(--large-2);
+	}
+	.small {
+		font-size: var(--small-1);
+	}
+	.currentPositionContainer {
+		flex-direction: row;
+	}
+	.currentPositionImageContainer {
+		height: 200px;
+	}
+	.currentPosition {
+		text-align: left;
+	}
+	.contactInnerContainer {
+		padding: 32px 64px;
+	}
+}
