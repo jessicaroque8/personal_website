@@ -2,17 +2,10 @@ footer {
 	position: relative;
 	bottom: 0px;
 	background: var(--lightest-gray);
-	height: 50px;
 	max-width: 100%;
-	padding: var(--sm);
+	padding: 64px 32px;
 }
 
 footer p {
 	text-align: center;
-}
-
-@media (min-width: 768px) {
-	footer {
-		padding: var(--md);
-	}
 }
