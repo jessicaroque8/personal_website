@@ -7,8 +7,8 @@
 
 .bounce {
 	animation: bounce 2s;
-	animation-delay: 5s;
-	animation-iteration-count: 1;
+	animation-delay: 1.3s;
+	animation-iteration-count: 2;
 }
 
 @keyframes bounce {
