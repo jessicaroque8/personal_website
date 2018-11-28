@@ -1,4 +1,18 @@
-.headerTitle {
+.headerContainer {
+	width: 100%;
+	padding: 16px;
+}
+
+.headerContainer > h2 {
 	margin: auto;
 	text-align: center;
+}
+
+.headerContainer > p {
+	text-align: center;
+}
+@media (min-width: 768px) {
+	.headerContainer {
+		padding: 32px;
+	}
 }

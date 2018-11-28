@@ -1,15 +1,26 @@
-.aboutContainer {
-	padding-top: 64px;
-	margin-left: auto;
-	margin-right: auto;
+.experienceContainer {
+	background: var(--lightest-gray);
 }
-
-.aboutContent {
-	margin-top: 64px;
-	margin-bottom: 64px;
+.experienceContainer > section {
+	margin: 16px auto;
+}
+.hourglass {
+	height: 50px;
+	margin-left: 8px;
+}
+.sectionTitleContainer {
 	display: flex;
-	flex-direction: column;
 	align-items: center;
-	justify-content: center;
-	max-width: 725px;
+	padding: 8px;
+}
+.sectionTitleContainer > h3 {
+	font-size: var(--small-2);
+}
+@media (min-width: 768px) {
+	.sectionTitleContainer {
+		padding: 16px;
+	}
+	.sectionTitleContainer > h3 {
+		font-size: var(--large-2);
+	}
 }

@@ -1,22 +1,32 @@
 import { h } from 'preact';
+import style from './style';
 import Main from '../../components/main';
 import Header from '../../components/header';
+import Section from '../../components/section';
+import Container from '../../components/container';
 import Card from '../../components/card';
+import HourglassSVG from './components/hourglass-svg';
 
-const renderHeader = () => <Header title="Resume" />;
+const renderHeader = () => <Header title="Resume" subtitle="Get an idea of how I've grown over the years." />;
 const Resume = () => (
 	<Main renderHeader={renderHeader}>
-		<div>
+		<Section addClass={style.experienceContainer}>
+			<Container flexJustify="center" addClass={style.sectionTitleContainer}>
+				<h3>Experience</h3>
+				<HourglassSVG addClass={style.hourglass} />
+			</Container>
 			<Card
-				subtitle="Dermveda"
-				title="Frontend Engineer"
+				subtitle="LearnSkin/Dermveda"
+				title="Software Engineer"
 				titleBody="April 2018 - Present"
 				imgAttributes={{ src: '../../assets/img/dermveda-logo.png', alt: 'Dermveda logo' }}
 				isCircleImg
 			>
-				Conceptualizes and delivers user-centric features across the SDLC through the tech stack of React, Redux, GraphQL, NodeJS, and
-				MongoDB. Main projects include spearheading the execution of a product platform and creating reusable, maintainable components for a
-				component library.
+				Conceptualizes and develops interactive, user-centric features across the SDLC using React, Redux, Styled-Components, GraphQL,
+				KeystoneJS, Mongoose, MongoDB, and NodeJS. Designs with AdobeXD. Debugs with patience and tenacity. Works on multiple projects
+				including creating reusable and maintainable components for a component library, building a product platform full-stack, designing and
+				developing landing pages, SEO-optimization, implementing Facebook Pixel, and redesigning and refactoring a course player. Grew from
+				contracted intern, to full-time onsite developer in Sacramento, to trusted remote developer (still full-time) in San Diego.
 			</Card>
 			<Card
 				subtitle="Achieve Internet"
@@ -57,7 +67,7 @@ const Resume = () => (
 			>
 				Generated reports, assisted with vendor relationships, and conducted general research for Events Department.
 			</Card>
-		</div>
+		</Section>
 	</Main>
 );
 export default Resume;

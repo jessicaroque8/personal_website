@@ -2,5 +2,5 @@
 https://jessicaroque.netlify.com/* https://www.jessicaroque.com/:splat 301!
 
 # Force SSL
+jessicaroque.com https://www.jessicaroque.com
 jessicaroque.com/* https://www.jessicaroque.com/:splat 301!
-www.jessicaroque.com/* https://www.jessicaroque.com/:splat 301!
